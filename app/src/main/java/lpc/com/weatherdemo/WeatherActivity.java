@@ -6,9 +6,7 @@ import android.graphics.Color;
 import android.os.Build;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
-import android.support.v4.widget.DrawerLayout;
-import android.support.v4.widget.SwipeRefreshLayout;
-import android.support.v7.app.AppCompatActivity;
+
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -23,6 +21,9 @@ import com.bumptech.glide.Glide;
 
 import java.io.IOException;
 
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.drawerlayout.widget.DrawerLayout;
+import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 import lpc.com.weatherdemo.gson.Forecast;
 import lpc.com.weatherdemo.gson.Weather;
 import lpc.com.weatherdemo.service.AutoUpdateService;

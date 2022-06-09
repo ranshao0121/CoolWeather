@@ -3,8 +3,7 @@ package lpc.com.weatherdemo;
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v4.app.Fragment;
+import androidx.annotation.Nullable;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -22,6 +21,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
+import androidx.fragment.app.Fragment;
 import lpc.com.weatherdemo.db.City;
 import lpc.com.weatherdemo.db.County;
 import lpc.com.weatherdemo.db.Province;

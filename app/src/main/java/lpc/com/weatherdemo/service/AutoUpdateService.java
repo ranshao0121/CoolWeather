@@ -8,10 +8,11 @@ import android.content.SharedPreferences;
 import android.os.IBinder;
 import android.os.SystemClock;
 import android.preference.PreferenceManager;
-import android.support.annotation.Nullable;
+
 
 import java.io.IOException;
 
+import androidx.annotation.Nullable;
 import lpc.com.weatherdemo.gson.Weather;
 import lpc.com.weatherdemo.util.HttpUtil;
 import lpc.com.weatherdemo.util.Utility;
